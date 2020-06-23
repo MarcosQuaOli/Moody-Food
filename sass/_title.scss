@@ -1,0 +1,29 @@
+.title {
+    color: #ffba00;
+    margin-bottom: 2rem;
+    font-weight: 900;
+    padding-left: .5rem;
+    border-left: 2px solid #ffba00;
+
+    &--no-border {
+        border: none;
+    }
+
+    &__about {
+        font-size: 25px;
+        border: none;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+
+    &__gallery {
+        font-size: 30px;
+        letter-spacing: 2px;
+        text-align: center;
+        border: none;
+                                    
+        @media (min-width: 998px) {
+            font-size: 42px;
+        }
+    }
+}
